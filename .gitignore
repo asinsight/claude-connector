@@ -1,0 +1,34 @@
+# Runtime directory (contains secrets and user data)
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
+
+# Runtime state
+last_rowid.txt
+inbox/
+outbox/
+
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
